@@ -5,7 +5,7 @@ use bikes;
 ALTER TABLE bikes_1 change ï»¿ID Id VARCHAR(10);
 
 
-## UPDATE COLUMN VALUES
+## UPDATING COLUMN VALUES
 UPDATE bikes_1 SET Marital_Status = "Married" WHERE Marital_Status = "M";
 UPDATE bikes_1 SET Marital_Status = "SIngle" WHERE Marital_Status = "S";
 UPDATE bikes_1 SET Gender = "Male" WHERE Gender = "M";
