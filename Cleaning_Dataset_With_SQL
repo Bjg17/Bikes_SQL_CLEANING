@@ -1,6 +1,6 @@
 use bikes;
 
-## UPDATING A COLUMN NAME
+## UPDATING A COLUMN NAME 
 ALTER TABLE bikes_1 change ï»¿ID Id VARCHAR(10);
 
 
